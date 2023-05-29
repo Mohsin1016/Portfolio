@@ -1,0 +1,16 @@
+.iz{
+    max-width: 10%;
+    max-height: 10%;
+    border-radius: 50%;
+}
+.scale-hover {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .scale-hover:hover {
+    transform: scale(1.1);
+  }
+  .ground{
+    background-color: #208080;
+  }
+  

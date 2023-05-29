@@ -1,0 +1,32 @@
+.Size{
+    width: 50%;
+    height: 85%;
+    border-radius: 50%;
+}
+.sz{
+    width: 10%;
+    height: 17%;
+    border-radius: 50%;
+}
+.text-container {
+    position: relative;
+
+  }
+  
+  .slide-in {
+    animation: slideInAnimation 1s ease;
+  }
+  
+  @keyframes slideInAnimation {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  
+  
