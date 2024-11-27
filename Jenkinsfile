@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     triggers {
-        cron('0 * * * *') // This will trigger the job every minute
+        cron('* * * * *') // This will trigger the job every minute
     }
 
     tools {
